@@ -1,0 +1,6 @@
+---
+# My own module
+- name: Fill file with content
+  my_own_module:
+    path: "{{ path }}"
+    content: "{{ content }}"
